@@ -1,5 +1,5 @@
 {
-    "name": "SEp 1 læringsspil",
+    "name": "Tag SEP1 færdig udgave",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -9,20 +9,17 @@
         "main.ts",
         "README.md",
         "assets.json",
-        "images.g.jres",
-        "images.g.ts",
         "tilemap.g.jres",
-        "tilemap.g.ts"
-    ],
-    "testFiles": [
-        "test.ts"
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "targetVersions": {
+        "branch": "v1.12.57",
+        "tag": "v1.12.57",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/50c17cec0d73d32911acd1633e6ce81b85ed2c3a",
         "target": "1.12.57",
-        "targetId": "arcade"
+        "pxt": "8.5.68"
     },
-    "supportedTargets": [
-        "arcade"
-    ],
     "preferredEditor": "blocksprj"
 }
